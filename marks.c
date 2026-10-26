@@ -15,7 +15,7 @@ int main ()
                   printf("The grade is B");
                  else if(a>=50&&a<=59)
                          printf("The grade is C");
-                       else if(a<50&&a>0)
+                       else if(a<50&&a>=0)
                                printf("FAIL");
                             else 
                                printf("Invalid mark");}
