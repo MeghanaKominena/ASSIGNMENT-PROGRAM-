@@ -1,10 +1,11 @@
 #include<stdio.h>
 int main ()
 {
-    float w,h,b;//weight in kg,height in metres 
+    float weight,height,b;//weight in kg,height in metres 
     printf("The weight and height of a person:");
-    scanf("%f%f",&w,&h);
-    printf("The BMI of a person is %.2f",b=w/(h*h));
+    scanf("%f%f",&weight,&height);
+    b=weight/(height*height);
+    printf("The BMI of a person is %.2f",b);
     if(b<18.5)
        printf("\nThe person is underweight");
     else if(b>=18.5&&b<25)
